@@ -1,0 +1,34 @@
+print( "İQ TESTİNE HOŞGELDİNİZ" )
+
+oynuyor = input ("Başlamak istediğinizden emin misiniz(evet/hayır)?" )
+
+if play.lower() != "evet" :
+    çıkış yapmak()
+
+print( "Hadi Bakalım :)" )
+puan = 0
+
+soru = input ("Bir beysbol sopası ve beyzbol topu toptan 1,10 liraya satılıyor. Sopa toptan 1 lira daha fazla. Topun fiyatı kaç liradır?" )
+if soru.lower() == "5" :
+    print('Doğru!' )
+    puan += 1
+Başka:
+    print( "Yanlış!" )
+
+soru = input ("Beş makine, beş dakikada beş adet parça üretebiliyorsa 100 makine 100 adet parça üretmesi kaç dakika sürer?" )
+if soru.lower() == "5" :
+    print('Doğru!' )
+    puan += 1
+Başka:
+    print( "Yanlış!" )
+
+soru = input ("Bir gölde bir nilüfer yaprağı bulunuyor. Bu nilüfer yaprağı, her gün kendi saçlarının iki katı büyüklüğe ulaşıyor. Nilüfer yaprağının tüm gölü kaplaması 48 gün yersa gölün kıyısındaki kaplaması kaç gün alır?" )
+if soru.lower() == "47" :
+    print('Doğru!' )
+    puan += 1
+Başka:
+    print( "Yanlış!" )
+
+
+
+print( "Aldınız Puan:" + str (( puan / 3 ) * 100 ) + "%." )
